@@ -8,7 +8,7 @@ import { creditBenefits, features, testimonials } from "@/lib/data";
 
 export default function Home() {
   return (
-    <div className="bg-background">
+    <div className="bg-blue-500">
       {/* Hero Section */}
       <section className="relative overflow-hidden py-32">
         <div className="container mx-auto px-4">
@@ -16,7 +16,7 @@ export default function Home() {
             <div className="space-y-8">
               <Badge
                 variant="outline"
-                className="bg-emerald-900/30 border-emerald-700/30 px-4 py-2 text-emerald-400 text-sm font-medium"
+                className="bg-emerald-900/30 border-emerald-700/30 px-4 py-2 text-white text-sm font-medium"
               >
 Visa For Italy              </Badge>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
@@ -49,7 +49,7 @@ Visa For Italy              </Badge>
 
             <div className="relative h-[400px] lg:h-[500px] rounded-xl overflow-hidden">
               <Image
-                src="/pic.jpg"
+                src="/mini.jpg"
                 alt="Doctor consultation"
                 fill
                 priority
